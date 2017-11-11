@@ -35,7 +35,6 @@ function getListIdsCallback(error, response, body) {
         $('div.album_soundlist > ul > li > div > a.title').each((index, item) => {
             listIds.push($(item).attr('href').split('/')[3]);
         });
-        console.log(listIds);        
         getAudioJson(listIds);
     }
 }
