@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "include": [
+        "./node/node_modules/cheerio",
+        "./node/node_modules/request"
+    ]
+}
